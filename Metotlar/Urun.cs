@@ -16,4 +16,5 @@ namespace Metotlar
 
         public int Stok { get; set; }
     }
+    
 }

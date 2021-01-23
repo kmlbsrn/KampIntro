@@ -6,9 +6,9 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
-            string urunAdi = "Elma";
-            double fiyati = 15;
-            string aciklama = "Amasya ELması";
+            //string urunAdi = "Elma";
+            //double fiyati = 15;
+            //string aciklama = "Amasya ELması";
 
             string[] meyveler = new string[] { };
             Urun urun1 = new Urun();
@@ -39,9 +39,9 @@ namespace Metotlar
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
 
-            sepetManager.Ekle2("armut", "yeşil armut", 12,10);
-            sepetManager.Ekle2("elma","yeşil elma",12,9);
-            sepetManager.Ekle2("elma", "diyabakır karpuzu", 12,8);
+            sepetManager.Ekle2("armut ", "yeşil armut ", 12,10) ;
+            sepetManager.Ekle2("elma " ,"yeşil elma ",12,9);
+            sepetManager.Ekle2("elma " , "diyabakır karpuzu ", 12,8);
             
 
         }
