@@ -22,7 +22,7 @@ namespace OOP3
 
             // basvuruManager.BasvuruYap(ihtiyacKrediManager,new DatabaseLoggerService());  //18.satırla aynı görevi yapar.
 
-            basvuruManager.BasvuruYap(esnafKrediManager, new List<ILoggerService> { new DatabaseLoggerService(), new SmsLoggerService()});
+            basvuruManager.BasvuruYap(esnafKrediManager, new List<ILoggerService> { new DatabaseLoggerService(), smsLoggerService});
 
             List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager, tasitKrediManager };
 
